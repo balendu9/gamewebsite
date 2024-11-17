@@ -26,7 +26,7 @@ const Hero = (props: Props) => {
                 <div className='relative md:top-20 mb-[24px]'>
                     <a onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} href="" className=' border-[1px] border-neutral-600 copilot rounded-full inline-block'>
                         <div className='flex items-center p-3 px-5'>
-                            <img className=" d-block w-auto flex-grow-0 flex-shrink-0 mr-6 max-md:mr-3 scale-110" width="44" height="44" loading="lazy" decoding="async" alt="" aria-hidden="true" src="./assets/color.png" />
+                            <img className=" d-block w-auto flex-grow-0 flex-shrink-0 mr-6 max-md:mr-3 scale-110" width="44" height="44" loading="lazy" decoding="async" alt="" aria-hidden="true" src="assets/color.png" />
                             <div className='md:pr-5 pr-3 md:mr-2 md:pl-2'>
                                 <div className='font-medium text-white text-[16px] max-md:text-[14px] leading-5'>Introducing the smoothest gameplay, ever seen in web3</div>
                                 <div className='text-neutral-500 max-md:text-[14px] text-[16px]'>Its time to level up the web3 gaming community</div>
